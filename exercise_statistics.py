@@ -12,3 +12,16 @@ def statistics():
     num2 = 8
     num3 = 23
     num4 = 12
+    
+    suma = num1 + num2 + num3 + num4 
+    numeros = num1, num2, num3, num4
+    numeroMax = max(numeros)
+    numeroMin = min(numeros)
+    rango = numeroMax - numeroMin
+    
+    print(suma / 4)
+    print(numeroMin)
+    print(numeroMax)
+    print(rango)
+    
+statistics()    
