@@ -8,6 +8,7 @@ def statistics():
     3. El mínimo
     4. El rango (diferencia entre máximo y mínimo)
     """
+
     num1 = 15
     num2 = 8
     num3 = 23
@@ -15,13 +16,14 @@ def statistics():
     
     suma = num1 + num2 + num3 + num4 
     numeros = num1, num2, num3, num4
+    
     numeroMax = max(numeros)
     numeroMin = min(numeros)
     rango = numeroMax - numeroMin
     
-    print(suma / 4)
-    print(numeroMin)
-    print(numeroMax)
-    print(rango)
+    print(suma / 4)     # promedio
+    print(numeroMax)    # máximo ✅
+    print(numeroMin)    # mínimo ✅
+    print(rango)        # rango
     
-statistics()    
+statistics()
